@@ -9,6 +9,21 @@ The image sources are from imdb, google, and youtube.
 import fresh_tomatoes
 import media
 
+"""
+This file will generate html based on the listing of the movies,
+based on the class Movie imported from media.py.  The fresh_tomatoes,
+besides being tasty, provides the template to render html code
+
+Summary of class Movie:
+movie_title:  Title of the selected movie
+movie_storyline: The summary of the selected movie
+poster_image: Link to image of movie poster_image
+trailer: Youtube video of the selected movie
+
+NOTE:  If you add a movie to the listing,
+ensure that you also add it to the movie tuple at the end
+"""
+
 movie1 = media.Movie(
                      "Inception",
                      "A thief, who steals corporate secrets through use of "
